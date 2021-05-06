@@ -10,48 +10,71 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__content">
-            <div class="logo">
-                <a href="">
-                    <img class="logo__img" src="img/logo.svg" alt="logo">
-                </a>
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <a href="">
+                        <img class="logo__img" src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <button class="header__menu-button"></button>
             </div>
-            <button class="header__menu-button"></button>
         </div>
         <nav class="menu"></nav>
     </header>
     <section class="main">
-        <div class="main__inner">
-            <div class="main__top">
-                <div class="main__banner-wrapper">
-                    <div class="main__banner"></div>
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__top">
+                    <div class="main__banner-wrapper">
+                        <div class="main__banner"></div>
+                    </div>
+                    <div class="main__top-desktop-content"></div>
+                    <div class="main__top-container">
+                        <div class="main__top-content">котировки</div>
+                    </div>
                 </div>
-                <div class="main__top-desktop-content"></div>
-                <div class="main__top-container">
-                    <div class="main__top-content">котировки</div>
-                </div>
-            </div>
-            <div class="main__bottom">
-                <div class="main__bottom-block">Новости</div>
-                <div class="main__drop-down-list">
-                    <div class="main__drop-down-item">Раскрытие информации</div>
-                    <div class="main__drop-down-item main__drop-down-item--mobile">Раскрытие информации</div>
-                    <div class="main__drop-down-item main__drop-down-item--mobile">Раскрытие информации</div>
-                </div>
-                <div class="main__bottom-content">
-                    <div class="main__bottom-content-row">
-                        <button class="main__bottom-button"></button>
+                <div class="main__bottom">
+                    <div class="main__bottom-block">Новости</div>
+                    <div class="main__drop-down-list">
+                        <div class="main__drop-down-item">
+                            <div class="main__drop-down-text">
+                                <p>Раскрытие информации</p> 
+                            </div>
+                        </div>
+                        <div class="main__drop-down-item main__drop-down-item--mobile">
+                            <div class="main__drop-down-text">
+                                <p>Раскрытие информации</p>
+                            </div>
+                        </div>
+                        <div class="main__drop-down-item main__drop-down-item--active main__drop-down-item--mobile">
+                            <img class="main__dropped-img" src="./img/dropped.png" alt="dropped img">
+                            <div class="main__drop-down-text">
+                                <p>Раскрытие информации</p>
+                                <div class="main__dropped-content">
+                                    <p class="main__dropped-text">Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+                                    <p class="main__dropped-text">Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__bottom-content">
+                        <div class="main__bottom-content-row">
+                            <button class="main__bottom-button"></button>
+                            <button class="main__bottom-button"></button>
+                        </div>
                         <button class="main__bottom-button"></button>
                     </div>
-                    <button class="main__bottom-button"></button>
+                    <div class="main__bottom-desktop-content">Закупки и продажи</div>
+                    <div class="main__bottom-desktop-block">Блок 3</div>
                 </div>
-                <div class="main__bottom-desktop-content">Закупки и продажи</div>
-                <div class="main__bottom-desktop-block">Блок 3</div>
             </div>
         </div>
     </section>
     <footer class="footer">
-        <div class="footer__inner"></div>
+        <div class="container">
+            <div class="footer__inner"></div>
+        </div>
     </footer>
 </body>
 </html>
