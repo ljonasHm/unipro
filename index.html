@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/style.css?v=1.000">
     <script src="dist/bundle.js" defer></script>
     <title>Юнипро</title>
 </head>
 <body>
     <header class="header">
-        <div class="header__inner">
+        <div class="header__content">
             <div class="logo">
                 <a href="">
                     <img class="logo__img" src="img/logo.svg" alt="logo">
@@ -18,20 +18,26 @@
             </div>
             <button class="header__menu-button"></button>
         </div>
+        <nav class="menu"></nav>
     </header>
     <section class="main">
         <div class="main__inner">
             <div class="main__top">
-                <div class="main__top-item">
-                    <div class="main__top-item-wrapper"></div>
+                <div class="main__banner-wrapper">
+                    <div class="main__banner"></div>
                 </div>
-                <div class="main__top-second">котировки</div>
+                <div class="main__top-desktop-content"></div>
+                <div class="main__top-container">
+                    <div class="main__top-content">котировки</div>
+                </div>
             </div>
             <div class="main__bottom">
-                <div class="main__bottom-first-item">Новости</div>
-                <div class="main__drop-down-item">Раскрытие информации</div>
-                <div class="main__drop-down-item">Раскрытие информации</div>
-                <div class="main__drop-down-item">Раскрытие информации</div>
+                <div class="main__bottom-block">Новости</div>
+                <div class="main__drop-down-list">
+                    <div class="main__drop-down-item">Раскрытие информации</div>
+                    <div class="main__drop-down-item main__drop-down-item--mobile">Раскрытие информации</div>
+                    <div class="main__drop-down-item main__drop-down-item--mobile">Раскрытие информации</div>
+                </div>
                 <div class="main__bottom-content">
                     <div class="main__bottom-content-row">
                         <button class="main__bottom-button"></button>
@@ -39,6 +45,8 @@
                     </div>
                     <button class="main__bottom-button"></button>
                 </div>
+                <div class="main__bottom-desktop-content">Закупки и продажи</div>
+                <div class="main__bottom-desktop-block">Блок 3</div>
             </div>
         </div>
     </section>
